@@ -1,7 +1,7 @@
 # Professional Data Scientist Portfolio
 
-🔗 **Live Site:** [https://imranmansha.github.io/](https://imranmansha.github.io/)  
-📁 **Repository:** [GitHub](https://github.com/imranmansha/imranmansha.github.io)  
+🔗 **Live Site:** [https://imranmanshaai.github.io/](https://imranmanshaai.github.io/)  
+📁 **Repository:** [GitHub](https://github.com/imranmanshaai/imranmanshaai.github.io)  
 🚀 **Deployed on:** GitHub Pages  
 
 ---
@@ -95,21 +95,13 @@ This is a fully responsive, interactive portfolio website created by **Imran Man
 - Blog section (JAMstack-based)  
 - Interactive data visualizations (D3.js, Chart.js)  
 - PWA conversion for offline usage  
-- Bootstrap 5 + Styled Components upgrade  
-
----
-
-## Academic Context
-
-- **Course:** Web Technologies (BSIT, Semester 6)  
-- **Instructor:** Ma'am Umber Ismail  
-- **University:** The Islamia University of Bahawalpur  
+- Bootstrap 5 + Styled Components upgrade   
 
 ---
 
 ## About Me
 
-I'm **Imran Mansha**, a data enthusiast and aspiring Data Scientist with experience in SQL, Python, Power BI, and Machine Learning. This portfolio is a digital reflection of my academic and professional journey. Connect with me on [LinkedIn](https://www.linkedin.com/in/imranmansha) or explore my work here!
+I'm **Imran Mansha**, AI/ML Engineer specializing in Agentic AI, RAG Applications, LLM fine-tuning, deep learning, and intelligent healthcare systems. Building production-grade AI solutions from research to deployment. Connect with me on [LinkedIn](https://www.linkedin.com/in/imranmansha) or explore my work here!
 
 ---
 
