@@ -565,7 +565,7 @@
     <div class="project-card fade-up">
       <div class="project-num">01 // JUN 2026</div>
       <div class="project-title">AI-Based ECG Image Digitization System</div>
-      <div class="project-desc">Converted scanned paper ECG images into digital time-series signals using a classical computer vision pipeline. Implemented 4-module architecture: OpenCV morphological gridline removal with FFT frequency suppression, horizontal edge projection for lead strip detection, column-wise argmax pixel scanning for waveform extraction, and Savitzky-Golay smoothing for signal reconstruction. Added rule-based rhythm classifier detecting 5 cardiac arrhythmia categories (NSR, Tachycardia, Bradycardia, AFib, PVC) with RR-interval statistical analysis and confidence scoring. Deployed as a Streamlit web app with CSV export, RR tachogram visualization, and clinical disclaimer. Aligned with George B. Moody PhysioNet Challenge 2024.</div>
+      <div class="project-desc">Converted scanned paper ECG images into digital time-series signals using OpenCV morphological gridline removal, FFT suppression, and column-wise argmax pixel scanning. Added rule-based rhythm classifier detecting 5 arrhythmia categories with RR-interval analysis. Deployed as Streamlit web app with CSV export. Aligned with PhysioNet Challenge 2024.</div>
       <div class="project-tech">
         <span class="tech-badge">OpenCV</span>
         <span class="tech-badge">NumPy</span>
@@ -577,7 +577,7 @@
       <a href="https://github.com/ImranManshaAI/ai-ecg-digitization-system" target="_blank" class="project-link">GitHub Repository →</a>
     </div>
     <div class="project-card fade-up">
-      <div class="project-num">01 // OCT 2025</div>
+      <div class="project-num">02 // MAY 2025</div>
       <div class="project-title">Fine-Tuning LLaMA 3 for Medical Chain-of-Thought Reasoning</div>
       <div class="project-desc">Fine-tuned Meta-LLaMA 3 (3B) Instruct on the FreedomIntelligence medical-o1-reasoning-SFT dataset using QLoRA on Kaggle's free GPU tier. Applied SFT via Hugging Face's SFTTrainer for domain-specific CoT medical reasoning. Evaluated pre/post fine-tuning performance using ROUGE-L scoring and deployed the adapter to Hugging Face Hub.</div>
       <div class="project-tech">
@@ -591,7 +591,7 @@
       <a href="https://github.com/ImranManshaAI/llama3-medical-finetuning" target="_blank" class="project-link">GitHub Repository →</a>
     </div>
     <div class="project-card fade-up" style="transition-delay:.12s;">
-      <div class="project-num">02 // APR 2025</div>
+      <div class="project-num">03 // MAR 2025</div>
       <div class="project-title">Alzheimer's Disease MRI Classification Using Transfer Learning & XAI</div>
       <div class="project-desc">Built an Alzheimer's MRI classifier using MobileNetV2 transfer learning with partial fine-tuning (last 30 layers), achieving 73.7% test accuracy on the ADNI dataset. Handled class imbalance via sklearn class weighting and applied augmentation across 70/15/15 splits. Integrated both Grad-CAM and LIME for Explainable AI.</div>
       <div class="project-tech">
@@ -605,9 +605,9 @@
       <a href="https://github.com/ImranManshaAI/alzheimers-multiclass-mobilenetv2-lime" target="_blank" class="project-link">GitHub Repository →</a>
     </div>
     <div class="project-card fade-up" style="transition-delay:.24s;">
-      <div class="project-num">03 // DEC 2025</div>
+      <div class="project-num">04 // DEC 2025</div>
       <div class="project-title">News Topic Classifier Using BERT</div>
-      <div class="project-desc">Fine-tuned bert-base-uncased on the AG News dataset (120,000 training samples) to classify news headlines into four categories: World, Sports, Business, and Sci/Tech. Tokenized text with BERT's WordPiece tokenizer at max sequence length 128, trained for 2 epochs using AdamW optimizer at learning rate 2e-5 with batch size 16. Achieved 94.6% accuracy and 94.6% weighted F1-score on 7,600 test samples. Visualized class separation via confusion matrix — minor overlap observed between Business and Sci/Tech due to semantic similarity. Deployed the fine-tuned model as a live interactive demo using Gradio for real-time headline predictions.</div>
+      <div class="project-desc">Fine-tuned bert-base-uncased on AG News dataset (120K samples) to classify headlines into World, Sports, Business, and Sci/Tech categories. Used AdamW optimizer, 2 epochs, batch size 16. Achieved 94.6% accuracy and 94.6% weighted F1-score. Deployed live interactive demo via Gradio for real-time predictions.</div>
       <div class="project-tech">
         <span class="tech-badge">BERT</span>
         <span class="tech-badge">Transformers</span>
