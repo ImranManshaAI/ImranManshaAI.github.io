@@ -563,6 +563,20 @@
   <div class="section-line"></div>
   <div class="projects-grid">
     <div class="project-card fade-up">
+      <div class="project-num">01 // JUN 2026</div>
+      <div class="project-title">AI-Based ECG Image Digitization System</div>
+      <div class="project-desc">Converted scanned paper ECG images into digital time-series signals using a classical computer vision pipeline. Implemented 4-module architecture: OpenCV morphological gridline removal with FFT frequency suppression, horizontal edge projection for lead strip detection, column-wise argmax pixel scanning for waveform extraction, and Savitzky-Golay smoothing for signal reconstruction. Added rule-based rhythm classifier detecting 5 cardiac arrhythmia categories (NSR, Tachycardia, Bradycardia, AFib, PVC) with RR-interval statistical analysis and confidence scoring. Deployed as a Streamlit web app with CSV export, RR tachogram visualization, and clinical disclaimer. Aligned with George B. Moody PhysioNet Challenge 2024.</div>
+      <div class="project-tech">
+        <span class="tech-badge">OpenCV</span>
+        <span class="tech-badge">NumPy</span>
+        <span class="tech-badge">SciPy</span>
+        <span class="tech-badge">Streamlit</span>
+        <span class="tech-badge">Signal Processing</span>
+        <span class="tech-badge">Arrhythmia Detection</span>
+      </div>
+      <a href="https://github.com/ImranManshaAI/ai-ecg-digitization-system" target="_blank" class="project-link">GitHub Repository →</a>
+    </div>
+    <div class="project-card fade-up">
       <div class="project-num">01 // OCT 2025</div>
       <div class="project-title">Fine-Tuning LLaMA 3 for Medical Chain-of-Thought Reasoning</div>
       <div class="project-desc">Fine-tuned Meta-LLaMA 3 (3B) Instruct on the FreedomIntelligence medical-o1-reasoning-SFT dataset using QLoRA on Kaggle's free GPU tier. Applied SFT via Hugging Face's SFTTrainer for domain-specific CoT medical reasoning. Evaluated pre/post fine-tuning performance using ROUGE-L scoring and deployed the adapter to Hugging Face Hub.</div>
@@ -574,7 +588,7 @@
         <span class="tech-badge">HuggingFace</span>
         <span class="tech-badge">Kaggle GPU</span>
       </div>
-      <a href="https://github.com/ImranMansha/llama3-medical-finetuning" target="_blank" class="project-link">GitHub Repository →</a>
+      <a href="https://github.com/ImranManshaAI/llama3-medical-finetuning" target="_blank" class="project-link">GitHub Repository →</a>
     </div>
     <div class="project-card fade-up" style="transition-delay:.12s;">
       <div class="project-num">02 // APR 2025</div>
@@ -588,34 +602,26 @@
         <span class="tech-badge">TensorFlow</span>
         <span class="tech-badge">ADNI Dataset</span>
       </div>
-      <a href="https://github.com/ImranMansha" target="_blank" class="project-link">GitHub Repository →</a>
+      <a href="https://github.com/ImranManshaAI/alzheimers-multiclass-mobilenetv2-lime" target="_blank" class="project-link">GitHub Repository →</a>
     </div>
     <div class="project-card fade-up" style="transition-delay:.24s;">
-      <div class="project-num">03 // DATA ANALYTICS</div>
-      <div class="project-title">Ecommerce Sales Dashboard using Power BI</div>
-      <div class="project-desc">Created a dynamic and interactive sales dashboard for Madhav Ecommerce using Power BI, providing actionable insights into sales performance, revenue trends, and customer behavior.</div>
+      <div class="project-num">03 // DEC 2025</div>
+      <div class="project-title">News Topic Classifier Using BERT</div>
+      <div class="project-desc">Fine-tuned bert-base-uncased on the AG News dataset (120,000 training samples) to classify news headlines into four categories: World, Sports, Business, and Sci/Tech. Tokenized text with BERT's WordPiece tokenizer at max sequence length 128, trained for 2 epochs using AdamW optimizer at learning rate 2e-5 with batch size 16. Achieved 94.6% accuracy and 94.6% weighted F1-score on 7,600 test samples. Visualized class separation via confusion matrix — minor overlap observed between Business and Sci/Tech due to semantic similarity. Deployed the fine-tuned model as a live interactive demo using Gradio for real-time headline predictions.</div>
       <div class="project-tech">
-        <span class="tech-badge">Power BI</span>
-        <span class="tech-badge">Data Visualization</span>
-        <span class="tech-badge">Business Analytics</span>
+        <span class="tech-badge">BERT</span>
+        <span class="tech-badge">Transformers</span>
+        <span class="tech-badge">AdamW</span>
+        <span class="tech-badge">AG News</span>
+        <span class="tech-badge">Fine-Tuning</span>
+        <span class="tech-badge">Text Classification</span>
       </div>
-      <a href="https://github.com/ImranMansha/Sales-Dashboard-using-Power-BI" target="_blank" class="project-link">GitHub Repository →</a>
-    </div>
-    <div class="project-card fade-up" style="transition-delay:.36s;">
-      <div class="project-num">04 // DATA ANALYTICS</div>
-      <div class="project-title">PizzaHut Sales Analysis using MySQL</div>
-      <div class="project-desc">Analyzed PizzaHut sales data using MySQL to uncover valuable insights and drive data-driven decisions, identifying top-selling items, peak hours, and revenue patterns.</div>
-      <div class="project-tech">
-        <span class="tech-badge">MySQL</span>
-        <span class="tech-badge">SQL Analytics</span>
-        <span class="tech-badge">Data Analysis</span>
-      </div>
-      <a href="https://github.com/ImranMansha/PizzaHut-Sales-Analysis-Using-SQL" target="_blank" class="project-link">GitHub Repository →</a>
+      <a href="https://github.com/ImranManshaAI/News-Topic-Classifier-Using-BERT" target="_blank" class="project-link">GitHub Repository →</a>
     </div>
   </div>
   <div style="text-align:center; margin-top:3rem;" class="fade-up">
     <p style="color:var(--muted); margin-bottom:1rem; font-size:.9rem;">More projects available on GitHub</p>
-    <a href="https://github.com/ImranMansha" target="_blank" class="btn-primary">View All on GitHub →</a>
+    <a href="https://github.com/ImranManshaAI" target="_blank" class="btn-primary">View All on GitHub →</a>
   </div>
 </section>
 
