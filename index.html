@@ -155,7 +155,7 @@
   #projects { background: var(--bg); }
   .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
   .project-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; transition: all .3s; position: relative; overflow: hidden; }
-  .project-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,189,57,0.03), transparent); opacity: 0; transition: opacity .3s; }
+  .project-card::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,189,57,0.03), transparent); opacity: 0; transition: opacity .3s; pointer-events: none; }
   .project-card:hover { border-color: rgba(255,189,57,0.25); transform: translateY(-6px); box-shadow: 0 0 30px rgba(255,189,57,0.08); }
   .project-card:hover::after { opacity: 1; }
   .project-num { font-family: 'Space Mono', monospace; font-size: .65rem; color: var(--muted); letter-spacing: .1em; margin-bottom: 1rem; }
@@ -163,7 +163,7 @@
   .project-desc { font-size: .87rem; color: #94a3b8; margin-bottom: 1.5rem; line-height: 1.7; }
   .project-tech { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.5rem; }
   .tech-badge { background: rgba(56,189,248,0.07); border: 1px solid rgba(56,189,248,0.15); color: var(--accent); border-radius: 4px; padding: .2rem .6rem; font-size: .72rem; font-family: 'Space Mono', monospace; }
-  .project-link { display: inline-flex; align-items: center; gap: .4rem; font-family: 'Space Mono', monospace; font-size: .7rem; color: var(--gold); text-decoration: none; letter-spacing: .05em; transition: gap .2s; }
+  .project-link { display: inline-flex; align-items: center; gap: .4rem; font-family: 'Space Mono', monospace; font-size: .7rem; color: var(--gold); text-decoration: none; letter-spacing: .05em; transition: gap .2s; position: relative; z-index: 1; }
   .project-link:hover { gap: .7rem; }
 
   /* CERTIFICATIONS */
